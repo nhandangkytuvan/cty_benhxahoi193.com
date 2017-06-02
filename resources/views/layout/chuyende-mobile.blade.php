@@ -41,5 +41,100 @@
 	<script type="text/javascript" src="{{ asset('public/js/global/slick/slick.js') }}"></script>
 	<script type="text/javascript" src="{{ asset('public/js/global/shake.js') }}"></script>
 	<script type="text/javascript" src="{{ asset('public/js/mobile/mobile.js') }}"></script>
+	<script type="text/javascript" src="{{ asset('public/js/chuyende/swt_div.js') }}"></script>
+	@yield('js')
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-85212676-9', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="dis-table width-100">
+				<div class="table-cell">
+					<div>
+						<a href="{{ url('/') }}" title="phòng khám chuyên khoa nam khang">
+							@yield('logo')
+						</a>
+					</div>
+				</div>
+				<div class="table-cell">
+					@if(Request::url()==url('/'))
+					<h1 class="text-uppercase">phòng khám chuyên khoa nam khang</h1>
+					@else
+					<div class="h3 text-uppercase">phòng khám chuyên khoa nam khang</div>
+					@endif
+					<div class="web-address text-uppercase">số 193C1 bà triệu - hai bà trưng - hà nội</div>
+				</div>
+				<div class="table-cell">
+					@yield('doc')
+				</div>
+				<div class="table-cell">
+					<span class="text-uppercase">
+					@if(url()->current()==url('chuyen-de/sui-mao-ga'))
+						Chuyên khoa<br>bệnh xã hội
+					@else
+						Chuyên khoa<br>nam khoa
+					@endif
+					</span>
+				</div>
+			</div>
+		</div>
+	</header>
+	<menu class="container">
+		<div class="dis-table width-100">
+			<a class="table-cell text-center text-uppercase" href="{{ url('/') }}" title="Trang chủ">
+				<span>Trang chủ</span>
+			</a>
+			<a class="table-cell text-center text-uppercase" href="{{ url('ve-chung-toi') }}" title="Giới thiệu phòng khám">
+				Giới thiệu<br>phòng khám
+			</a>
+			<a class="table-cell text-center text-uppercase" href="#" title="Đội ngũ chuyên gia">
+				Đội ngũ<br>chuyên gia
+			</a>
+			<a class="table-cell text-center text-uppercase" href="{{ url('dia-chi-phong-kham') }}" title="Địa chỉ phòng khám">
+				Địa chỉ<br>phòng khám
+			</a>
+		</div>
+	</menu>
+	<div class="banner container">
+		<div class="slick-home">
+			<div>
+				<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">
+					@yield('banner')
+				</a>
+			</div>
+		</div>
+		<script>
+			$('.slick-home').slick({
+				autoplay: true,
+				autoplaySpeed: 4000,
+			});
+		</script>
+	</div>
+	@yield('content')	
+	<footer>
+		<div class="container">
+			<p>Điện thoại tư vấn đặt hẹn: <a href="tel:18006181">1800 6181</a> - <a href="tel:0439.656.999">0439.656.999</a></p>
+			<p>Thời gian mở cửa: <a href="tel:18006181">8:00 - 20:00</a></p>
+			<p>Địa chỉ phòng khám: <a href="tel:18006181">193C1 BÀ TRIỆU – HAI BÀ TRƯNG – HÀ NỘI</a></p>
+		</div>
+		@yield('toolbar')	
+	</footer>
+	<div id="my_popup">
+	    <p>Bác sỹ đang yêu cầu được chát với bạn</p>
+	    <p class="dis-none">Sẽ nhanh hơn khi bạn trò chuyện với bác sĩ tư vấn</p>
+	    <a class="my_popup_close btn-cancel">Từ chối</a>
+	    <a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="btn-agree">Đồng ý</a>
+	</div>
+	<script language="javascript" src="http://swt.phongkham193.com/JS/LsJS.aspx?siteid=MFI63108226&float=1&lng=en"></script>
+	<img src="{{ asset('public/images/mobile/shake.gif') }}" alt="" style="position: fixed; top: 15%;right: 0px;z-index: 999;width:55px;">
 </body>
 </html>
