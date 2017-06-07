@@ -65,16 +65,16 @@
 					<div><h2 class="text-uppercase"><a href="{{ MyAPI::getUrlTermID(28) }}">Sùi mào gà</a></h2></div>
 				</div>
 				<div class="table-cell">
-					<a href="" class="text-center dis-table width-100" title="Nguyên nhân"><span class="table-cell">Nguyên nhân</span></a>
-					<a href="" class="text-center dis-table width-100" title="Triệu chứng"><span class="table-cell">Triệu chứng</span></a>
+					<a href="{{ MyAPI::getUrlPostID(64) }}" class="text-center dis-table width-100" title="Nguyên nhân"><span class="table-cell">Nguyên nhân</span></a>
+					<a href="{{ MyAPI::getUrlPostID(65) }}" class="text-center dis-table width-100" title="Triệu chứng"><span class="table-cell">Triệu chứng</span></a>
 				</div>
 				<div class="table-cell">
-					<a href="" class="text-center dis-table width-100" title="Nguy hại"><span class="table-cell">Nguy hại</span></a>
-					<a href="" class="text-center dis-table width-100" title="Điều trị"><span class="table-cell">Điều trị</span></a>
+					<a href="{{ MyAPI::getUrlPostID(67) }}" class="text-center dis-table width-100" title="Nguy hại"><span class="table-cell">Nguy hại</span></a>
+					<a href="{{ MyAPI::getUrlPostID(72) }}" class="text-center dis-table width-100" title="Điều trị"><span class="table-cell">Điều trị</span></a>
 				</div>
 				<div class="table-cell">
-					<a href="" class="text-center dis-table width-100" title="Chi phí"><span class="table-cell">Chi phí</span></a>
-					<a href="" class="text-center dis-table width-100" title="Kiểm tra"><span class="table-cell">Kiểm tra</span></a>
+					<a href="{{ MyAPI::getUrlPostID(75) }}" class="text-center dis-table width-100" title="Chi phí"><span class="table-cell">Chi phí</span></a>
+					<a href="{{ MyAPI::getUrlPostID(110) }}" class="text-center dis-table width-100" title="Kiểm tra"><span class="table-cell">Kiểm tra</span></a>
 				</div>
 			</div>
 			<div class="dis-table width-100 table1">
@@ -82,16 +82,16 @@
 					<div><h2 class="text-uppercase"><a href="{{ MyAPI::getUrlTermID(30) }}">Bệnh lậu</a></h2></div>
 				</div>
 				<div class="table-cell">
-					<a href="" class="text-center dis-table width-100" title="Nguyên nhân"><span class="table-cell">Nguyên nhân</span></a>
-					<a href="" class="text-center dis-table width-100" title="Triệu chứng"><span class="table-cell">Triệu chứng</span></a>
+					<a href="{{ MyAPI::getUrlPostID(45) }}" class="text-center dis-table width-100" title="Nguyên nhân"><span class="table-cell">Nguyên nhân</span></a>
+					<a href="{{ MyAPI::getUrlPostID(47) }}" class="text-center dis-table width-100" title="Triệu chứng"><span class="table-cell">Triệu chứng</span></a>
 				</div>
 				<div class="table-cell">
-					<a href="" class="text-center dis-table width-100" title="Nguy hại"><span class="table-cell">Nguy hại</span></a>
-					<a href="" class="text-center dis-table width-100" title="Điều trị"><span class="table-cell">Điều trị</span></a>
+					<a href="{{ MyAPI::getUrlPostID(49) }}" class="text-center dis-table width-100" title="Nguy hại"><span class="table-cell">Nguy hại</span></a>
+					<a href="{{ MyAPI::getUrlPostID(54) }}" class="text-center dis-table width-100" title="Điều trị"><span class="table-cell">Điều trị</span></a>
 				</div>
 				<div class="table-cell">
-					<a href="" class="text-center dis-table width-100" title="Chi phí"><span class="table-cell">Chi phí</span></a>
-					<a href="" class="text-center dis-table width-100" title="Kiểm tra"><span class="table-cell">Kiểm tra</span></a>
+					<a href="{{ MyAPI::getUrlPostID(87) }}" class="text-center dis-table width-100" title="Chi phí"><span class="table-cell">Chi phí</span></a>
+					<a href="{{ MyAPI::getUrlPostID(55) }}" class="text-center dis-table width-100" title="Kiểm tra"><span class="table-cell">Kiểm tra</span></a>
 				</div>
 			</div>
 			<div class="dis-table width-100 table1">
@@ -99,16 +99,16 @@
 					<div><h2 class="text-uppercase"><a href="{{ MyAPI::getUrlTermID(29) }}">Giang mai</a></h2></div>
 				</div>
 				<div class="table-cell">
-					<a href="" class="text-center dis-table width-100" title="Nguyên nhân"><span class="table-cell">Nguyên nhân</span></a>
-					<a href="" class="text-center dis-table width-100" title="Triệu chứng"><span class="table-cell">Triệu chứng</span></a>
+					<a href="{{ MyAPI::getUrlPostID(42) }}" class="text-center dis-table width-100" title="Nguyên nhân"><span class="table-cell">Nguyên nhân</span></a>
+					<a href="{{ MyAPI::getUrlPostID(43) }}" class="text-center dis-table width-100" title="Triệu chứng"><span class="table-cell">Triệu chứng</span></a>
 				</div>
 				<div class="table-cell">
-					<a href="" class="text-center dis-table width-100" title="Nguy hại"><span class="table-cell">Nguy hại</span></a>
-					<a href="" class="text-center dis-table width-100" title="Điều trị"><span class="table-cell">Điều trị</span></a>
+					<a href="{{ MyAPI::getUrlPostID(46) }}" class="text-center dis-table width-100" title="Nguy hại"><span class="table-cell">Nguy hại</span></a>
+					<a href="{{ MyAPI::getUrlPostID(51) }}" class="text-center dis-table width-100" title="Điều trị"><span class="table-cell">Điều trị</span></a>
 				</div>
 				<div class="table-cell">
-					<a href="" class="text-center dis-table width-100" title="Chi phí"><span class="table-cell">Chi phí</span></a>
-					<a href="" class="text-center dis-table width-100" title="Kiểm tra"><span class="table-cell">Kiểm tra</span></a>
+					<a href="{{ MyAPI::getUrlPostID(56) }}" class="text-center dis-table width-100" title="Chi phí"><span class="table-cell">Chi phí</span></a>
+					<a href="{{ MyAPI::getUrlPostID(84) }}" class="text-center dis-table width-100" title="Kiểm tra"><span class="table-cell">Kiểm tra</span></a>
 				</div>
 			</div>
 			<div class="dis-table width-100 table1">
@@ -116,16 +116,16 @@
 					<div><h2 class="text-uppercase"><a href="{{ MyAPI::getUrlTermID(31) }}">Mụn rộp sinh dục</a></h2></div>
 				</div>
 				<div class="table-cell">
-					<a href="" class="text-center dis-table width-100" title="Nguyên nhân"><span class="table-cell">Nguyên nhân</span></a>
-					<a href="" class="text-center dis-table width-100" title="Triệu chứng"><span class="table-cell">Triệu chứng</span></a>
+					<a href="{{ MyAPI::getUrlPostID(62) }}" class="text-center dis-table width-100" title="Nguyên nhân"><span class="table-cell">Nguyên nhân</span></a>
+					<a href="{{ MyAPI::getUrlPostID(63) }}" class="text-center dis-table width-100" title="Triệu chứng"><span class="table-cell">Triệu chứng</span></a>
 				</div>
 				<div class="table-cell">
-					<a href="" class="text-center dis-table width-100" title="Nguy hại"><span class="table-cell">Nguy hại</span></a>
-					<a href="" class="text-center dis-table width-100" title="Điều trị"><span class="table-cell">Điều trị</span></a>
+					<a href="{{ MyAPI::getUrlPostID(66) }}" class="text-center dis-table width-100" title="Nguy hại"><span class="table-cell">Nguy hại</span></a>
+					<a href="{{ MyAPI::getUrlPostID(68) }}" class="text-center dis-table width-100" title="Điều trị"><span class="table-cell">Điều trị</span></a>
 				</div>
 				<div class="table-cell">
-					<a href="" class="text-center dis-table width-100" title="Chi phí"><span class="table-cell">Chi phí</span></a>
-					<a href="" class="text-center dis-table width-100" title="Kiểm tra"><span class="table-cell">Kiểm tra</span></a>
+					<a href="{{ MyAPI::getUrlPostID(73) }}" class="text-center dis-table width-100" title="Chi phí"><span class="table-cell">Chi phí</span></a>
+					<a href="{{ MyAPI::getUrlPostID(70) }}" class="text-center dis-table width-100" title="Kiểm tra"><span class="table-cell">Kiểm tra</span></a>
 				</div>
 			</div>
 		</div>
