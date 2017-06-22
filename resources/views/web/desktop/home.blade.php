@@ -192,7 +192,7 @@
 					<div class="nth2"><a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Tư vấn trực tuyến</a></div>
 				</div>
 				<div class="des1">
-					Những năm gần đây, phòng khám không ngừng đầu tư những thiết bị kĩ thuật chẩn trị trong và ngoài nước, kết hợp với hệ thống hóa thiết bị chẩn trị, cố gắng sử dụng thiết bị kĩ thuật khoa học phối hợp với kĩ thuật chẩn trị khoa học, phục vụ cho đại đa số quần chúng nhân dân, không ngừng nâng cao trình độ khám chữa, đảm bảo hiệu quả điều trị.
+					Những năm gần đây, phòng khám không ngừng đầu tư những thiết bị kĩ thuật chẩn trị trong và ngoài nước, kết hợp với hệ thống hóa thiết bị chẩn trị, nỗ lực sử dụng thiết bị kĩ thuật khoa học phối hợp với kĩ thuật chẩn trị khoa học, phục vụ cho đại đa số quần chúng nhân dân, không ngừng nâng cao trình độ khám chữa, đảm bảo hiệu quả điều trị.
 				</div>
 				<div class="nth3">
 					<img src="{{ asset('public/css/desktop/img/home-10.png') }}" alt="" class="center-block">
@@ -292,7 +292,7 @@
 							<span class="pos-absolute text-center">Bệnh nhân<br>là trên hết</span>
 						</div>
 						<div class="des1">
-							Luôn coi bệnh nhân là trên hết. Trang bị phòng khám riêng, tôn trọng sự quyền riêng tư của bệnh nhân, tất cả đều coi bệnh nhân là trung tâm.
+							Luôn coi bệnh nhân là trên hết. Trang bị phòng khám riêng, tôn trọng quyền riêng tư của bệnh nhân, tất cả đều coi bệnh nhân là trung tâm.
 						</div>
 					</div>
 					<div class="flex1col1">

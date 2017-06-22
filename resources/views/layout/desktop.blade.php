@@ -119,7 +119,7 @@
 					<div><a href="{{ MyAPI::getUrlTermID(32) }}" class="text-container-center hvr-fade" title="Kỹ thuật đặc biệt">Kỹ thuật đặc biệt</a></div>
 				</div>
 				<div class="flex1col1 flex align-items-center justify-content-center">
-					<div><a href="#" class="text-container-center hvr-fade" title="Sếp số hẹn khám">Sếp số hẹn khám</a></div>
+					<div><a href="#" class="text-container-center hvr-fade" title="Sếp số hẹn khám">Xếp số hẹn khám</a></div>
 				</div>
 				<div class="flex1col1 flex align-items-center justify-content-center">
 					<div><a href="{{ url('/dia-chi-phong-kham') }}" class="text-container-center hvr-fade" title="Địa chỉ phòng khám">Địa chỉ phòng khám</a></div>
@@ -134,7 +134,7 @@
                 <a class="flex1col1 flex align-items-center justify-content-center text-uppercase" href="{{ url('/') }}">trang chủ</a>
                 <a class="flex1col1 flex align-items-center justify-content-center text-uppercase" href="{{ url('/ve-chung-toi') }}">giới thiệu<br>phòng khám</a>
                 <a class="flex1col1 flex align-items-center justify-content-center text-uppercase" href="{{ MyAPI::getUrlTermID(32) }}">kỹ thuật<br>đặc biệt</a>
-                <a class="flex1col1 flex align-items-center justify-content-center text-uppercase" href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">sếp số<br>hẹn khám</a>
+                <a class="flex1col1 flex align-items-center justify-content-center text-uppercase" href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Xếp số<br>hẹn khám</a>
                 <a class="flex1col1 flex align-items-center justify-content-center text-uppercase" href="{{ url('/dia-chi-phong-kham') }}">địa chỉ<br>phòng khám</a>
                 <a class="flex1col1 flex align-items-center justify-content-center text-uppercase" href="{{ url('/') }}">trở về<br>trang chủ</a>
             </div>
