@@ -215,7 +215,5 @@
 
 @endsection('content')
 @section('toolbar')
-	<div class="container footer-toolbar">
-		@include('web.mobile.toolbar2')
-	</div>
+	@include('web.mobile.toolbar2')
 @endsection('toolbar')
