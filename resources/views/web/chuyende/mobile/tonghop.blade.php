@@ -470,46 +470,5 @@
 	</div>
 @endsection('content')
 @section('toolbar')
-	<div class="container footer-toolbar">
-		<div class="dis-table table1 width-100">
-			<div class="table-cell cell1">
-				<div class="dis-table table2 width-100">
-					<div class="table-cell">
-						<a href="{{ url('/') }}">
-							<img src="{{ asset('public/images/chuyende/mobile/tonghop/icon-1.png') }}" alt="">
-						</a>
-					</div>
-					<div class="table-cell text-uppercase text-center">
-						<a href="{{ url('/') }}">Trang chủ</a>
-					</div>
-				</div>
-			</div>
-			<div class="table-cell cell2">
-				<div class="dis-table table2 width-100">
-					<div class="table-cell">
-						<a href="tel:18006181">
-							<img src="{{ asset('public/images/chuyende/mobile/tonghop/icon-2.png') }}" alt="">
-						</a>
-					</div>
-					<div class="table-cell text-uppercase text-center">
-						<a href="tel:18006181">Gọi điện thoại</a>
-					</div>
-				</div>
-			</div>
-			<div class="table-cell cell3">
-				<div class="dis-table table2 width-100">
-					<div class="table-cell">
-						<h3 class="text-center">
-							<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">
-								<img src="{{ asset('public/images/chuyende/mobile/tonghop/icon-3.png') }}" alt="">
-							</a>
-						</h3>
-					</div>
-					<div class="table-cell text-uppercase text-center">
-						<a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Tư vấn trực tuyến</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+	@include('web.mobile.toolbar2')
 @endsection('toolbar')
