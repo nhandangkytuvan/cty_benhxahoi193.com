@@ -32,7 +32,6 @@
 	<link rel="stylesheet" type="text/css" href="{{ asset('public/css/mobile/mobile.css') }}">
 	<link rel="stylesheet" type="text/css" href="{{ asset('public/css/chuyende/mobile/mobile-header.css') }}">
 	<link rel="stylesheet" href="{{ asset('public/css/chuyende/mobile/bootstrap.css') }}">
-	<link rel="stylesheet" type="text/css" href="{{ asset('public/css/mobile/mobile-toolbar.css') }}">
 	@yield('css')
 	<!-- <link rel="stylesheet" href="{{ asset('public/css/chuyende/mobile/mobile-viem-nhiem-quy-dau-mediaqueries.css') }}"> -->
 	<script type="text/javascript" src="{{ asset('public/js/global/jquery-1.12.3.min.js') }}"></script>
@@ -42,6 +41,7 @@
 	<script type="text/javascript" src="{{ asset('public/js/global/slick/slick.js') }}"></script>
 	<script type="text/javascript" src="{{ asset('public/js/global/shake.js') }}"></script>
 	<script type="text/javascript" src="{{ asset('public/js/mobile/mobile.js') }}"></script>
+	<script type="text/javascript" src="{{ asset('public/js/chuyende/swt_div.js') }}"></script>
 	@yield('js')
 	<script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

@@ -421,5 +421,5 @@
 	</div>
 @endsection('content')
 @section('toolbar')
-	@include('web.mobile.toolbar2')
+	@include('web.mobile.toolbar1')
 @endsection('toolbar')
