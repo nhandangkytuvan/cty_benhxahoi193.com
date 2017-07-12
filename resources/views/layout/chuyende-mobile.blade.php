@@ -133,12 +133,7 @@
 		</div>
 		@yield('toolbar')	
 	</footer>
-	<div id="my_popup" class="pos-relative">
-	    <p>Dịch vụ tư vấn đặt hẹn </p>
-	    <a class="btn-cancel" href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en">Tư vấn</a>
-	    <a href="http://swt.phongkham193.com/LR/Chatpre.aspx?id=MFI63108226&cid=1489654963660812714370&lng=en" class="btn-agree">Đặt hẹn</a>
-	    <span class="my_popup_close pos-absolute fa fa-window-close"></span>
-	</div>
+	@include('popup.mypopup0')
 	<script language="javascript" src="http://swt.phongkham193.com/JS/LsJS.aspx?siteid=MFI63108226&float=1&lng=en"></script>
 	<img src="{{ asset('public/images/mobile/shake.gif') }}" alt="" style="position: fixed; top: 15%;right: 0px;z-index: 999;width:55px;">
 </body>
