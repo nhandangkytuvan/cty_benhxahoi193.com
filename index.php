@@ -1,5 +1,9 @@
 <?php
-
+$deny = array("27.72.61.93");
+if (in_array ($_SERVER['REMOTE_ADDR'], $deny)) {
+   header("location: http://www.google.com/");
+   exit();
+}
 /**
  * Laravel - A PHP Framework For Web Artisans
  *

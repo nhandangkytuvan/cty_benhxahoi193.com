@@ -8,6 +8,7 @@ Route::any('/search{query?}', 'Web\HomeController@search');
 // Chuyen De
 Route::get('chuyen-de/sui-mao-ga','Web\ChuyenDeController@suimaoga');
 Route::get('chuyen-de/tong-hop','Web\ChuyenDeController@tonghop');
+Route::get('chuyen-de/sui-mao-ga-tong-hop','Web\ChuyenDeController@suimaogatonghop');
 // Mail
 Route::post('sendmail','Web\MyMailController@sendmail');
 Route::post('sendphone','Web\MyMailController@sendphone');
